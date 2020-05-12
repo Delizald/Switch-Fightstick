@@ -91,7 +91,7 @@ void setupWifi() {
   WiFi.mode(WIFI_STA);
 
   WiFi.config(ip, gateway, subnet);
-  WiFi.begin("Sardegna", "ader2009");
+  WiFi.begin("SSID", "PASSWORD");
 #if DEBUG
   Serial.print("Connecting");
   #endif
